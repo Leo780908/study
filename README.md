@@ -10,19 +10,19 @@ Markdown語言詳解 https://read01.com/J848LL.html
 緩存 http://blog.csdn.net/feng8888bbb/article/details/69106186
 
 ## 加密技巧
-    
-        public static String get(String url, String key) {
+    public static String get(String url, String key) {
         Object b = null;
         String signature = null;
+
         try {
             byte[] b1 = HmacSHA1.getHmacSHA1Encrypt(url, key);
             signature = new String(Base64.encode(b1, 0), Charset.forName("UTF-8"));
         } catch (Exception var5) {
             var5.printStackTrace();
         }
+
         return signature.replaceAll("\\s+", "");
-        }
-   
+    }
 signature = SignatureUtils.get("email=" + email + "&pwd=" + password, "123456789" + date);
 signature = URLEncoder.encode(signature, "UTF-8");
 
