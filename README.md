@@ -10,8 +10,8 @@ Markdown語言詳解 https://read01.com/J848LL.html
 緩存 http://blog.csdn.net/feng8888bbb/article/details/69106186
 
 ## 加密技巧
-
-public static String get(String url, String key) {
+    
+        public static String get(String url, String key) {
         Object b = null;
         String signature = null;
         try {
@@ -20,14 +20,13 @@ public static String get(String url, String key) {
         } catch (Exception var5) {
             var5.printStackTrace();
         }
-
         return signature.replaceAll("\\s+", "");
-    }
-    
+        }
+   
 signature = SignatureUtils.get("email=" + email + "&pwd=" + password, "123456789" + date);
 signature = URLEncoder.encode(signature, "UTF-8");
 
-日期:20170607  
+日期:20170607  
 修改前(登入):id=null&token=null&pwd=E6fv3TH84d79  
 修改前(未登入):&pwd=E6fv3TH84d79  
 加密後:8FWh7NnqvwSlI/NR3LRpb5xo7UI=  
