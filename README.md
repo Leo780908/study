@@ -26,9 +26,9 @@ Markdown語言詳解 https://read01.com/J848LL.html
 signature = SignatureUtils.get("email=" + email + "&pwd=" + password, "123456789" + date);
 signature = URLEncoder.encode(signature, "UTF-8");
 
-日期:20170607  
-修改前(登入):id=null&token=null&pwd=E6fv3TH84d79  
-修改前(未登入):&pwd=E6fv3TH84d79  
+日期:20170607  
+修改前(登入):id=null&token=null&pwd=E6fv3TH84d79   
+修改前(未登入):&pwd=E6fv3TH84d79  
 加密後:8FWh7NnqvwSlI/NR3LRpb5xo7UI=  
 UTF8編碼後:8FWh7NnqvwSlI%2FNR3LRpb5xo7UI%3D  
 URL:  
