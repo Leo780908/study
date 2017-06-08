@@ -10,10 +10,10 @@ Markdown語言詳解 https://read01.com/J848LL.html
 緩存 http://blog.csdn.net/feng8888bbb/article/details/69106186
 
 ## 加密技巧
+
 public static String get(String url, String key) {
         Object b = null;
         String signature = null;
-
         try {
             byte[] b1 = HmacSHA1.getHmacSHA1Encrypt(url, key);
             signature = new String(Base64.encode(b1, 0), Charset.forName("UTF-8"));
