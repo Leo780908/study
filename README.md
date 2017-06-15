@@ -32,5 +32,6 @@ signature = URLEncoder.encode(signature, "UTF-8");
 加密後:8FWh7NnqvwSlI/NR3LRpb5xo7UI=  
 UTF8編碼後:8FWh7NnqvwSlI%2FNR3LRpb5xo7UI%3D  
 URL:  
-http://tnpasstest.ddns.net/apiv1_android/home?id=22&token=p85DR2SZ9SFjtdPXpbDC&signature=8FWh7NnqvwSlI%2FNR3LRpb5xo7UI%3D  
-
+http://tnpasstest.ddns.net/apiv1_android/home?id=22&token=p85DR2SZ9SFjtdPXpbDC&signature=8FWh7NnqvwSlI%2FNR3LRpb5xo7UI%3D  
+指南針APP    
+http://apps.friday.tw/news/?p=19487
